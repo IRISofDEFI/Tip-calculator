@@ -2,12 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tip Calculator</title>
-    <link rel="stylesheet" src="syles.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Tip Calculator</h1>
+    <div class="calculate">
+      <h1>Tip Calculator</h1>
+      <form>
+        <label>Bill Amount ($) </label>
+
+        <input type="number" id="bill-amount" required />
+        <label> Tip Percentage (%)</label>
+        <input type="number" id="tip-percentage" required />
+        <button type="button" onclick="calculateTip()">CALCULATE</button>
+      </form>
+      <div class="results">
+        <p>Tip Amount: <span id="tip-amount"></span></p>
+        <p>Total Amount: <spanz id="total-amount"></spanz></p>
+      </div>
+    </div>
+
     <script src="scripts.js"></script>
   </body>
 </html>
