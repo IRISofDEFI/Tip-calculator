@@ -1,0 +1,64 @@
+💰 Tip Calculator
+
+A simple Tip Calculator App built with HTML, CSS, and JavaScript.
+This project allows users to quickly calculate the tip amount and the total bill based on a given percentage.
+
+🚀 Features
+
+Input bill amount
+
+Input tip percentage
+
+Instantly calculate:
+
+✅ Tip amount 💵
+
+✅ Total amount (bill + tip)
+
+User-friendly design with clean UI
+
+Real-time calculation with formatted output
+
+🛠️ Technologies Used
+
+HTML5 – Structure of the app
+
+CSS3 – Styling and layout
+
+JavaScript (Vanilla JS) – Core functionality & DOM manipulation
+
+📂 Project Structure
+📁 Tip-Calculator
+ ┣ 📜 index.html      # Main HTML file
+ ┣ 📜 style.css       # Styling
+ ┣ 📜 scripts.js      # JavaScript logic
+ ┗ 📜 README.md       # Project documentation
+
+💻 How to Use
+
+Clone this repository:
+
+git clone https://github.com/your-username/tip-calculator.git
+
+
+Open index.html in your browser.
+
+Enter your bill amount and tip percentage.
+
+Click CALCULATE to see the results.
+
+📸 Screenshot
+
+(Optional: Add a screenshot of your app here)
+
+🌟 Future Improvements
+
+Add option to split the bill between multiple people
+
+Improve UI with animations
+
+Add currency selection
+
+🙌 Acknowledgments
+
+Built as part of my #100DaysOfCode Challenge (Day 54) 🎉
